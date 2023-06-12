@@ -6,7 +6,7 @@ const axios = require('axios'); // requiring the axios module
 
 
 
-// middleware to parse the data from the url
+// creating an instance of body parser module
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // the get method is used to send the html file to the browser when a request is made on the user end
